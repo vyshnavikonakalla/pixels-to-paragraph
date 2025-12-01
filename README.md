@@ -56,6 +56,9 @@ caption.
 * Greedy Search Algorithm was used to select the words with maximum probability.
 * BLEU Score was used as evaluation metrics.
 
+##challeges solved
+One of the most challenging problems I solved recently was building an end-to-end Image Caption Generator using deep learning. The main difficulty was handling the complex interaction between image features and text sequences, especially ensuring that the CNN-extracted features and LSTM-based captions aligned correctly during training. Cleaning and preparing the large Flickr30k dataset was also challenging, as I had to normalize captions, remove noisy characters, and generate proper start and end tokens for every sentence. Another major challenge was extracting meaningful image embeddings using ResNet-50 and managing the huge 2048-dimensional feature vectors efficiently. Training the LSTM model required careful tuning, long training hours, and experimentation with greedy search to improve caption quality. Finally, integrating everything into a usable Tkinter UI and validating captions with BLEU scores made the project both technically demanding and highly rewarding.
+
 ## RESULTS
 * Generated captions on test images:
 - ![](images/caption3.JPG)
